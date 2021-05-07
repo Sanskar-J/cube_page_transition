@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+    overflow: hidden;
+}
+.screen-front{
+    background:red;
+    position:absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    transform: translateY(-100%);
+    /*   */
+}
+.screen-bot{
+    background:grey;
+    position:absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    transform: translateY(0%);
+    /*   */
+}
+.screen-back{
+    background:limegreen;
+    position:absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    transform: translateY(100%);
+     
+}
+.screen-left{
+    background:yellow;
+    position:absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    transform: translateX(-100%);
+     
+}
+.screen-right{
+    background:violet;
+    position:absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    transform: translateX(100%);
+     
+}
+.screen-top{
+    background:wheat;
+    position:absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    transform: translateY(-100%);
+    transform: translateX(-100%);
+     
+}
+/* .screen-front.down{
+    transition: transform 0.4s ease-in-out;
+    transform: translateY(0%); 
+}
+.screen-front.dwn{
+    transition: transform 0.4s ease-in-out; 
+    transform: translateY(100%); 
+}
+.screen-bot.down{
+    transition: transform 0.4s ease-in-out; 
+    transform: translateY(100%);
+}
+.screen-bot.up{
+    transform: translateY(-100%);
+}
+.screen-bot.left{
+    transition: transform 0.4s ease-in-out;
+    transform: translateX(100%);
+}
+.screen-bot.right{
+    transition: transform 0.4s ease-in-out;
+    transform: translateX(100%);
+}
+.screen-left.right{
+    transition: transform 0.4s ease-in-out;
+    transform: translateX(0%);
+}
+.screen-right.left{
+    transition: transform 0.4s ease-in-out;
+    transform: translateX(0%);
+}
+.screen-back.roll{
+    transform: translateY(-100%);
+}
+.screen-back.up{
+    transition: transform 0.4s ease-in-out;
+    transform: translateY(0%);
+}
+.screen-top.down2{
+    transition: transform 0.4s ease-in-out;
+    transform: translateY(100%);
+}
+.screen-top.down{
+    transition: transform 0.4s ease-in-out;
+    transform: translateY(0); 
+}*/
+/* buttons */
+.btn1a{
+
+    position: fixed;
+    left: 50%;
+    top: 0%;
+    background-color:transparent;
+    font-size: 36px;
+    cursor: pointer;
+}
+.btn1b{
+    position: fixed;
+    left: 50%;
+    bottom: 0%;
+    background-color:transparent;
+    font-size: 36px;
+    cursor: pointer;
+}
+.btn1c{
+    position: fixed;
+    left: 0%;
+    top: 50%;
+    background-color:transparent;
+    font-size: 36px;
+    cursor: pointer;
+}
+.btn1d{
+    position: fixed;
+    right: 0%;
+    top: 50%;
+    background-color:transparent;
+    font-size: 36px;
+    cursor: pointer;
+}
+.btn2a{
+
+    position: fixed;
+    left: 50%;
+    top: 0%;
+    background-color:transparent;
+    font-size: 36px;
+    cursor: pointer;
+}
+.btn2b{
+    position: fixed;
+    left: 50%;
+    bottom: 0%;
+    background-color:transparent;
+    font-size: 36px;
+    cursor: pointer;
+}
+.btn2c{
+    position: fixed;
+    left: 0%;
+    top: 50%;
+    background-color:transparent;
+    font-size: 36px;
+    cursor: pointer;
+}
+.btn2d{
+    position: fixed;
+    right: 0%;
+    top: 50%;
+    background-color:transparent;
+    font-size: 36px;
+    cursor: pointer;
+}
+.btn3a{
+
+    position: fixed;
+    left: 50%;
+    top: 0%;
+    background-color:transparent;
+    font-size: 36px;
+    cursor: pointer;
+}
+.btn3b{
+    position: fixed;
+    left: 50%;
+    bottom: 0%;
+    background-color:transparent;
+    font-size: 36px;
+    cursor: pointer;
+}
+.btn3c{
+    position: fixed;
+    left: 0%;
+    top: 50%;
+    background-color:transparent;
+    font-size: 36px;
+    cursor: pointer;
+}
+.btn3d{
+    position: fixed;
+    right: 0%;
+    top: 50%;
+    background-color:transparent;
+    font-size: 36px;
+    cursor: pointer;
+}
+.btn4a{
+
+    position: fixed;
+    left: 50%;
+    top: 0%;
+    background-color:transparent;
+    font-size: 36px;
+    cursor: pointer;
+}
+.btn4b{
+    position: fixed;
+    left: 50%;
+    bottom: 0%;
+    background-color:transparent;
+    font-size: 36px;
+    cursor: pointer;
+}
+.btn4c{
+    position: fixed;
+    left: 0%;
+    top: 50%;
+    background-color:transparent;
+    font-size: 36px;
+    cursor: pointer;
+}
+.btn4d{
+    position: fixed;
+    right: 0%;
+    top: 50%;
+    background-color:transparent;
+    font-size: 36px;
+    cursor: pointer;
+}
+.btn5a{
+
+    position: fixed;
+    left: 50%;
+    top: 0%;
+    background-color:transparent;
+    font-size: 36px;
+    cursor: pointer;
+}
+.btn5b{
+    position: fixed;
+    left: 50%;
+    bottom: 0%;
+    background-color:transparent;
+    font-size: 36px;
+    cursor: pointer;
+}
+.btn5c{
+    position: fixed;
+    left: 0%;
+    top: 50%;
+    background-color:transparent;
+    font-size: 36px;
+    cursor: pointer;
+}
+.btn5d{
+    position: fixed;
+    right: 0%;
+    top: 50%;
+    background-color:transparent;
+    font-size: 36px;
+    cursor: pointer;
+}
+.btn6a{
+
+    position: fixed;
+    left: 50%;
+    top: 0%;
+    background-color:transparent;
+    font-size: 36px;
+    cursor: pointer;
+}
+.btn6b{
+    position: fixed;
+    left: 50%;
+    bottom: 0%;
+    background-color:transparent;
+    font-size: 36px;
+    cursor: pointer;
+}
+.btn6c{
+    position: fixed;
+    left: 0%;
+    top: 50%;
+    background-color:transparent;
+    font-size: 36px;
+    cursor: pointer;
+}
+.btn6d{
+    position: fixed;
+    right: 0%;
+    top: 50%;
+    background-color:transparent;
+    font-size: 36px;
+    cursor: pointer;
+}
+h1{ 
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
